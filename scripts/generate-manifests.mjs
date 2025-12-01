@@ -5,8 +5,8 @@ import path from "path";
 const __dirname = path.resolve();
 
 // HIER ggf. anpassen, wenn deine Packs nicht im Ordner "packs" liegen:
-const PACKS_ROOT = path.join(__dirname, "packs");
-const PACKS_JSON_PATH = path.join(__dirname, "packs.json");
+const PACKS_ROOT = path.join(__dirname, "game-assets", "packs");
+const PACKS_JSON_PATH = path.join(__dirname, "game-assets", "packs.json");
 
 function slugify(str) {
   return str
