@@ -3,8 +3,8 @@ name: Generate manifests
 on:
   push:
     paths:
-      - "packs/**.glb"
-      - "packs/**.gltf"
+      - "game-assets/packs/**.glb"
+      - "game-assets/packs/**.gltf"
       - "scripts/generate-manifests.mjs"
       - ".github/workflows/generate-manifests.yml"
 
