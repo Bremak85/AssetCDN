@@ -1,0 +1,236 @@
+[
+  {
+    "id": "bag",
+    "name": "Bag",
+    "file": "Bag.glb",
+    "category": "prop"
+  },
+  {
+    "id": "bagopen",
+    "name": "BagOpen",
+    "file": "BagOpen.glb",
+    "category": "prop"
+  },
+  {
+    "id": "bags",
+    "name": "Bags",
+    "file": "Bags.glb",
+    "category": "prop"
+  },
+  {
+    "id": "barrel",
+    "name": "Barrel",
+    "file": "Barrel.glb",
+    "category": "prop"
+  },
+  {
+    "id": "bell",
+    "name": "Bell",
+    "file": "Bell.glb",
+    "category": "generic"
+  },
+  {
+    "id": "belltower",
+    "name": "BellTower",
+    "file": "BellTower.glb",
+    "category": "building"
+  },
+  {
+    "id": "bench-7uslzo3n9y",
+    "name": "Bench-7uSlZo3n9Y",
+    "file": "Bench-7uSlZo3n9Y.glb",
+    "category": "prop"
+  },
+  {
+    "id": "bench",
+    "name": "Bench",
+    "file": "Bench.glb",
+    "category": "prop"
+  },
+  {
+    "id": "blacksmith",
+    "name": "Blacksmith",
+    "file": "Blacksmith.glb",
+    "category": "generic"
+  },
+  {
+    "id": "bonfire",
+    "name": "Bonfire",
+    "file": "Bonfire.glb",
+    "category": "generic"
+  },
+  {
+    "id": "cart",
+    "name": "Cart",
+    "file": "Cart.glb",
+    "category": "prop"
+  },
+  {
+    "id": "cauldron",
+    "name": "Cauldron",
+    "file": "Cauldron.glb",
+    "category": "generic"
+  },
+  {
+    "id": "crate",
+    "name": "Crate",
+    "file": "Crate.glb",
+    "category": "prop"
+  },
+  {
+    "id": "door-straight",
+    "name": "Door Straight",
+    "file": "Door Straight.glb",
+    "category": "prop"
+  },
+  {
+    "id": "doorround",
+    "name": "DoorRound",
+    "file": "DoorRound.glb",
+    "category": "prop"
+  },
+  {
+    "id": "fantasy-barracks",
+    "name": "Fantasy Barracks",
+    "file": "Fantasy Barracks.glb",
+    "category": "generic"
+  },
+  {
+    "id": "fantasy-house-bh2xhwunmf",
+    "name": "Fantasy House-BH2XHWUNmF",
+    "file": "Fantasy House-BH2XHWUNmF.glb",
+    "category": "building"
+  },
+  {
+    "id": "fantasy-house-dcpho4sua3",
+    "name": "Fantasy House-dcPho4SUA3",
+    "file": "Fantasy House-dcPho4SUA3.glb",
+    "category": "building"
+  },
+  {
+    "id": "fantasy-inn",
+    "name": "Fantasy Inn",
+    "file": "Fantasy Inn.glb",
+    "category": "building"
+  },
+  {
+    "id": "fantasy-sawmill",
+    "name": "Fantasy Sawmill",
+    "file": "Fantasy Sawmill.glb",
+    "category": "generic"
+  },
+  {
+    "id": "fantasy-stable",
+    "name": "Fantasy Stable",
+    "file": "Fantasy Stable.glb",
+    "category": "generic"
+  },
+  {
+    "id": "fantasyhouse",
+    "name": "FantasyHouse",
+    "file": "FantasyHouse.glb",
+    "category": "building"
+  },
+  {
+    "id": "fence",
+    "name": "Fence",
+    "file": "Fence.glb",
+    "category": "generic"
+  },
+  {
+    "id": "gazebo",
+    "name": "Gazebo",
+    "file": "Gazebo.glb",
+    "category": "generic"
+  },
+  {
+    "id": "hay",
+    "name": "Hay",
+    "file": "Hay.glb",
+    "category": "generic"
+  },
+  {
+    "id": "market-stand-dgim5hgisb",
+    "name": "Market Stand-DGIM5HGISb",
+    "file": "Market Stand-DGIM5HGISb.glb",
+    "category": "generic"
+  },
+  {
+    "id": "market-stand",
+    "name": "Market Stand",
+    "file": "Market Stand.glb",
+    "category": "generic"
+  },
+  {
+    "id": "mill",
+    "name": "Mill",
+    "file": "Mill.glb",
+    "category": "generic"
+  },
+  {
+    "id": "package-kyvd6qcqrd",
+    "name": "Package-kYvD6QCQRd",
+    "file": "Package-kYvD6QCQRd.glb",
+    "category": "generic"
+  },
+  {
+    "id": "package",
+    "name": "Package",
+    "file": "Package.glb",
+    "category": "generic"
+  },
+  {
+    "id": "path-straight",
+    "name": "Path Straight",
+    "file": "Path Straight.glb",
+    "category": "generic"
+  },
+  {
+    "id": "rocks",
+    "name": "Rocks",
+    "file": "Rocks.glb",
+    "category": "nature"
+  },
+  {
+    "id": "round-window",
+    "name": "Round Window",
+    "file": "Round Window.glb",
+    "category": "generic"
+  },
+  {
+    "id": "sawmill-saw",
+    "name": "Sawmill Saw",
+    "file": "Sawmill Saw.glb",
+    "category": "generic"
+  },
+  {
+    "id": "smoke",
+    "name": "Smoke",
+    "file": "Smoke.glb",
+    "category": "generic"
+  },
+  {
+    "id": "stairs",
+    "name": "Stairs",
+    "file": "Stairs.glb",
+    "category": "generic"
+  },
+  {
+    "id": "well",
+    "name": "Well",
+    "file": "Well.glb",
+    "category": "generic"
+  },
+  {
+    "id": "window-ey1zrfcme9",
+    "name": "Window-EY1zrFcme9",
+    "file": "Window-EY1zrFcme9.glb",
+    "category": "generic"
+  },
+  {
+    "id": "window",
+    "name": "Window",
+    "file": "Window.glb",
+    "category": "generic"
+  }
+]
