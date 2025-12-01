@@ -1,0 +1,260 @@
+[
+  {
+    "id": "barrel-open",
+    "name": "Barrel Open",
+    "file": "Barrel Open.glb",
+    "category": "prop"
+  },
+  {
+    "id": "barrel",
+    "name": "Barrel",
+    "file": "Barrel.glb",
+    "category": "prop"
+  },
+  {
+    "id": "bedroll-frame",
+    "name": "Bedroll Frame",
+    "file": "Bedroll Frame.glb",
+    "category": "generic"
+  },
+  {
+    "id": "bedroll-efwd5fjumu",
+    "name": "Bedroll-efwd5fjuMU",
+    "file": "Bedroll-efwd5fjuMU.glb",
+    "category": "generic"
+  },
+  {
+    "id": "bedroll",
+    "name": "Bedroll",
+    "file": "Bedroll.glb",
+    "category": "generic"
+  },
+  {
+    "id": "box-open",
+    "name": "Box Open",
+    "file": "Box Open.glb",
+    "category": "prop"
+  },
+  {
+    "id": "box",
+    "name": "Box",
+    "file": "Box.glb",
+    "category": "prop"
+  },
+  {
+    "id": "campfire",
+    "name": "Campfire",
+    "file": "Campfire.glb",
+    "category": "generic"
+  },
+  {
+    "id": "chest",
+    "name": "Chest",
+    "file": "Chest.glb",
+    "category": "generic"
+  },
+  {
+    "id": "fence-fortified",
+    "name": "Fence Fortified",
+    "file": "Fence Fortified.glb",
+    "category": "generic"
+  },
+  {
+    "id": "fence-frame",
+    "name": "Fence Frame",
+    "file": "Fence Frame.glb",
+    "category": "generic"
+  },
+  {
+    "id": "fish",
+    "name": "Fish",
+    "file": "Fish.glb",
+    "category": "generic"
+  },
+  {
+    "id": "fishing-stand",
+    "name": "Fishing Stand",
+    "file": "Fishing Stand.glb",
+    "category": "generic"
+  },
+  {
+    "id": "floor",
+    "name": "Floor",
+    "file": "Floor.glb",
+    "category": "generic"
+  },
+  {
+    "id": "grass-uege0afnpf",
+    "name": "Grass-uEgE0AfnPF",
+    "file": "Grass-uEgE0AfnPF.glb",
+    "category": "generic"
+  },
+  {
+    "id": "grass",
+    "name": "Grass",
+    "file": "Grass.glb",
+    "category": "generic"
+  },
+  {
+    "id": "pickaxe",
+    "name": "Pickaxe",
+    "file": "Pickaxe.glb",
+    "category": "generic"
+  },
+  {
+    "id": "resource-stone",
+    "name": "Resource Stone",
+    "file": "Resource Stone.glb",
+    "category": "nature"
+  },
+  {
+    "id": "rock-flat-grass",
+    "name": "Rock Flat Grass",
+    "file": "Rock Flat Grass.glb",
+    "category": "nature"
+  },
+  {
+    "id": "rock-flat",
+    "name": "Rock Flat",
+    "file": "Rock Flat.glb",
+    "category": "nature"
+  },
+  {
+    "id": "rock-cbqdrdlddl",
+    "name": "Rock-cBqdRdLDDL",
+    "file": "Rock-cBqdRdLDDL.glb",
+    "category": "nature"
+  },
+  {
+    "id": "rock-iekf2fgasy",
+    "name": "Rock-iEKF2FGasY",
+    "file": "Rock-iEKF2FGasY.glb",
+    "category": "nature"
+  },
+  {
+    "id": "rock",
+    "name": "Rock",
+    "file": "Rock.glb",
+    "category": "nature"
+  },
+  {
+    "id": "shovel",
+    "name": "Shovel",
+    "file": "Shovel.glb",
+    "category": "generic"
+  },
+  {
+    "id": "signpost-single",
+    "name": "Signpost Single",
+    "file": "Signpost Single.glb",
+    "category": "generic"
+  },
+  {
+    "id": "signpost",
+    "name": "Signpost",
+    "file": "Signpost.glb",
+    "category": "generic"
+  },
+  {
+    "id": "structure-base",
+    "name": "Structure Base",
+    "file": "Structure Base.glb",
+    "category": "generic"
+  },
+  {
+    "id": "structure-cloth",
+    "name": "Structure Cloth",
+    "file": "Structure Cloth.glb",
+    "category": "generic"
+  },
+  {
+    "id": "structure-roof",
+    "name": "Structure Roof",
+    "file": "Structure Roof.glb",
+    "category": "generic"
+  },
+  {
+    "id": "structure",
+    "name": "Structure",
+    "file": "Structure.glb",
+    "category": "generic"
+  },
+  {
+    "id": "tent-frame",
+    "name": "Tent Frame",
+    "file": "Tent Frame.glb",
+    "category": "generic"
+  },
+  {
+    "id": "tent-half",
+    "name": "Tent Half",
+    "file": "Tent Half.glb",
+    "category": "generic"
+  },
+  {
+    "id": "tent",
+    "name": "Tent",
+    "file": "Tent.glb",
+    "category": "generic"
+  },
+  {
+    "id": "tool-axe",
+    "name": "Tool Axe",
+    "file": "Tool Axe.glb",
+    "category": "generic"
+  },
+  {
+    "id": "tool-hoe",
+    "name": "Tool Hoe",
+    "file": "Tool Hoe.glb",
+    "category": "generic"
+  },
+  {
+    "id": "tree-fall-large",
+    "name": "Tree Fall Large",
+    "file": "Tree Fall Large.glb",
+    "category": "nature"
+  },
+  {
+    "id": "tree-fall",
+    "name": "Tree Fall",
+    "file": "Tree Fall.glb",
+    "category": "nature"
+  },
+  {
+    "id": "tree-large",
+    "name": "Tree Large",
+    "file": "Tree Large.glb",
+    "category": "nature"
+  },
+  {
+    "id": "tree",
+    "name": "Tree",
+    "file": "Tree.glb",
+    "category": "nature"
+  },
+  {
+    "id": "twig",
+    "name": "Twig",
+    "file": "Twig.glb",
+    "category": "generic"
+  },
+  {
+    "id": "workbench-anvil",
+    "name": "Workbench Anvil",
+    "file": "Workbench Anvil.glb",
+    "category": "prop"
+  },
+  {
+    "id": "workbench-grind",
+    "name": "Workbench Grind",
+    "file": "Workbench Grind.glb",
+    "category": "prop"
+  },
+  {
+    "id": "workbench",
+    "name": "Workbench",
+    "file": "Workbench.glb",
+    "category": "prop"
+  }
+]

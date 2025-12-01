@@ -1,0 +1,74 @@
+[
+  {
+    "id": "birch-trees",
+    "name": "Birch Trees",
+    "file": "Birch Trees.glb",
+    "category": "nature"
+  },
+  {
+    "id": "bushes",
+    "name": "Bushes",
+    "file": "Bushes.glb",
+    "category": "nature"
+  },
+  {
+    "id": "dead-trees-f5i0q7two5",
+    "name": "Dead Trees-F5I0Q7TwO5",
+    "file": "Dead Trees-F5I0Q7TwO5.glb",
+    "category": "nature"
+  },
+  {
+    "id": "dead-trees",
+    "name": "Dead Trees",
+    "file": "Dead Trees.glb",
+    "category": "nature"
+  },
+  {
+    "id": "flower-bushes",
+    "name": "Flower Bushes",
+    "file": "Flower Bushes.glb",
+    "category": "nature"
+  },
+  {
+    "id": "flowers",
+    "name": "Flowers",
+    "file": "Flowers.glb",
+    "category": "generic"
+  },
+  {
+    "id": "grass",
+    "name": "Grass",
+    "file": "Grass.glb",
+    "category": "generic"
+  },
+  {
+    "id": "maple-trees",
+    "name": "Maple Trees",
+    "file": "Maple Trees.glb",
+    "category": "nature"
+  },
+  {
+    "id": "palm-trees",
+    "name": "Palm Trees",
+    "file": "Palm Trees.glb",
+    "category": "nature"
+  },
+  {
+    "id": "pine-trees",
+    "name": "Pine Trees",
+    "file": "Pine Trees.glb",
+    "category": "nature"
+  },
+  {
+    "id": "rocks",
+    "name": "Rocks",
+    "file": "Rocks.glb",
+    "category": "nature"
+  },
+  {
+    "id": "trees",
+    "name": "Trees",
+    "file": "Trees.glb",
+    "category": "nature"
+  }
+]

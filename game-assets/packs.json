@@ -1,5 +1,15 @@
 [
   {
+    "id": "survival-kit-glb",
+    "name": "Survival Kit glb",
+    "basePath": "game-assets/packs/Survival Kit-glb"
+  },
+  {
+    "id": "ultimate-stylized-nature-pack-glb",
+    "name": "Ultimate Stylized Nature Pack glb",
+    "basePath": "game-assets/packs/Ultimate Stylized Nature Pack-glb"
+  },
+  {
     "id": "medieval-village-pack-glb",
     "name": "medieval village pack glb",
     "basePath": "game-assets/packs/medieval-village-pack-glb"
