@@ -1,5 +1,8 @@
 name: Generate manifests
 
+permissions:
+  contents: write
+
 on:
   push:
     paths:
