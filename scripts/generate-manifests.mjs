@@ -4,7 +4,7 @@ import path from "path";
 
 const __dirname = path.resolve();
 
-// HIER ggf. anpassen, wenn deine Packs nicht im Ordner "packs" liegen:
+// >>> WICHTIG: Deine Struktur = game-assets/packs <<<
 const PACKS_ROOT = path.join(__dirname, "game-assets", "packs");
 const PACKS_JSON_PATH = path.join(__dirname, "game-assets", "packs.json");
 
@@ -40,7 +40,8 @@ function guessCategory(filename) {
     name.includes("crate") ||
     name.includes("box") ||
     name.includes("cart") ||
-    name.includes("bench")
+    name.includes("bench") ||
+    name.includes("bag")
   ) {
     return "prop";
   }
@@ -49,7 +50,7 @@ function guessCategory(filename) {
 
 function generateManifests() {
   if (!fs.existsSync(PACKS_ROOT)) {
-    console.error(`Ordner "packs" nicht gefunden: ${PACKS_ROOT}`);
+    console.error(`Ordner "game-assets/packs" nicht gefunden: ${PACKS_ROOT}`);
     process.exit(1);
   }
 
@@ -62,48 +63,5 @@ function generateManifests() {
   const packsMeta = [];
 
   for (const dir of packsDirs) {
-    const packId = slugify(dir); // z.B. "medieval-village"
+    const packId = slugify(dir); // z.B. "medieval-village-pack-glb"
     const packName = dir.replace(/[_-]/g, " "); // grob lesbarer Name
-    const basePath = `packs/${dir}`;
-    const packPath = path.join(PACKS_ROOT, dir);
-
-    const files = fs
-      .readdirSync(packPath, { withFileTypes: true })
-      .filter(
-        (f) =>
-          f.isFile() &&
-          (f.name.toLowerCase().endsWith(".glb") ||
-            f.name.toLowerCase().endsWith(".gltf"))
-      )
-      .map((f) => f.name);
-
-    const manifest = files.map((file) => {
-      const noExt = file.replace(/\.(glb|gltf)$/i, "");
-      return {
-        id: slugify(noExt),
-        name: noExt,
-        file,
-        category: guessCategory(file),
-      };
-    });
-
-    const manifestPath = path.join(packPath, "manifest.json");
-    fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2), "utf-8");
-    console.log(`✓ manifest.json erzeugt für Pack: ${dir}`);
-
-    packsMeta.push({
-      id: packId,
-      name: packName,
-      basePath,
-    });
-  }
-
-  fs.writeFileSync(
-    PACKS_JSON_PATH,
-    JSON.stringify(packsMeta, null, 2),
-    "utf-8"
-  );
-  console.log(`✓ packs.json aktualisiert (${packsMeta.length} Packs)`);
-}
-
-generateManifests();
