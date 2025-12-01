@@ -1,0 +1,31 @@
+name: Generate manifests
+
+on:
+  push:
+    paths:
+      - "packs/**.glb"
+      - "packs/**.gltf"
+      - "scripts/generate-manifests.mjs"
+      - ".github/workflows/generate-manifests.yml"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate manifests
+        run: node scripts/generate-manifests.mjs
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update packs.json and manifests"
+          file_pattern: "packs.json packs/**/manifest.json"
