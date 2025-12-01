@@ -1,13 +1,6 @@
 # AssetCDN
 Sammlung von Game Asset Packs
 
-Gerne 👍
-Hier ist eine **fertige, saubere README.md** für dein GitHub-Assets-Repo – genau zugeschnitten auf **Game-Assets als CDN + Admin-Integration in Gemini / Three.js**.
-Du kannst sie **1:1 kopieren**.
-
----
-
-````markdown
 # 🎮 Game Assets Repository (Web-3D / Three.js / Gemini)
 
 Dieses Repository dient als **zentrales Asset-CDN** für Web-Games (Three.js, Babylon.js, `<model-viewer>`, Gemini Apps Builder).
