@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "gen:manifests": "node scripts/generate-manifests.mjs"
+  }
+}
