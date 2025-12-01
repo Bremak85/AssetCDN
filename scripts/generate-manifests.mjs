@@ -3,10 +3,11 @@ import fs from "fs";
 import path from "path";
 
 const __dirname = path.resolve();
+
+// HIER ggf. anpassen, wenn deine Packs nicht im Ordner "packs" liegen:
 const PACKS_ROOT = path.join(__dirname, "packs");
 const PACKS_JSON_PATH = path.join(__dirname, "packs.json");
 
-// simple helper
 function slugify(str) {
   return str
     .toLowerCase()
@@ -14,16 +15,33 @@ function slugify(str) {
     .replace(/(^-|-$)/g, "");
 }
 
-// sehr simple Heuristik für Kategorien
+// sehr einfache Kategorie-Heuristik
 function guessCategory(filename) {
   const name = filename.toLowerCase();
-  if (name.includes("house") || name.includes("hut") || name.includes("inn") || name.includes("tower") || name.includes("castle")) {
+  if (
+    name.includes("house") ||
+    name.includes("hut") ||
+    name.includes("inn") ||
+    name.includes("tower") ||
+    name.includes("castle")
+  ) {
     return "building";
   }
-  if (name.includes("tree") || name.includes("rock") || name.includes("stone") || name.includes("bush")) {
+  if (
+    name.includes("tree") ||
+    name.includes("rock") ||
+    name.includes("stone") ||
+    name.includes("bush")
+  ) {
     return "nature";
   }
-  if (name.includes("barrel") || name.includes("crate") || name.includes("box") || name.includes("cart") || name.includes("bench")) {
+  if (
+    name.includes("barrel") ||
+    name.includes("crate") ||
+    name.includes("box") ||
+    name.includes("cart") ||
+    name.includes("bench")
+  ) {
     return "prop";
   }
   return "generic";
@@ -80,7 +98,11 @@ function generateManifests() {
     });
   }
 
-  fs.writeFileSync(PACKS_JSON_PATH, JSON.stringify(packsMeta, null, 2), "utf-8");
+  fs.writeFileSync(
+    PACKS_JSON_PATH,
+    JSON.stringify(packsMeta, null, 2),
+    "utf-8"
+  );
   console.log(`✓ packs.json aktualisiert (${packsMeta.length} Packs)`);
 }
 
