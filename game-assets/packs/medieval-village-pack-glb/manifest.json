@@ -108,12 +108,6 @@
     "category": "building"
   },
   {
-    "id": "fantasy-inn",
-    "name": "Fantasy Inn",
-    "file": "Fantasy Inn.glb",
-    "category": "building"
-  },
-  {
     "id": "fantasy-sawmill",
     "name": "Fantasy Sawmill",
     "file": "Fantasy Sawmill.glb",
@@ -129,6 +123,12 @@
     "id": "fantasyhouse",
     "name": "FantasyHouse",
     "file": "FantasyHouse.glb",
+    "category": "building"
+  },
+  {
+    "id": "fantasyinn",
+    "name": "FantasyInn",
+    "file": "FantasyInn.glb",
     "category": "building"
   },
   {
